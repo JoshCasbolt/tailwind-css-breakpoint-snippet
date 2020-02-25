@@ -1,0 +1,13 @@
+
+{
+	"Base mobile-first CSS selectors": {
+		"prefix": "mfcss",
+		"body": [
+			"/* min-width: 640px\nMed-large Smartphones upwards */\n@screen sm {}\n",
+			"/* min-width: 768px\nTablets upwards\n*/\n@screen md {}\n",
+			"/* min-width: 1024px\nSmall laptops/monitors upwards\n*/\n@screen lg {}\n",
+			"/* min-width: 1280px\nLarge desktops upwards\n*/\n@screen xl {}\n",
+		]
+		"description": 'Mobile first boilerplate used for Tailwind CSS utility breakpoints',
+	}
+}
